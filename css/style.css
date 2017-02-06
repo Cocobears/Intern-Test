@@ -1,0 +1,100 @@
+#navtext-color{ 
+   font: 20px calibri, sans-serif;
+  font-weight: bold;   
+  color:white;
+}
+
+#navtext-color:hover{ 
+   font: 20px calibri, sans-serif;
+  font-weight: bold;   
+  color:navy;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #N9;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+
+#back{
+  
+  background-image:url(../images/clouds.jpg); 
+  background-size:cover;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+}
+
+#loginBack{
+  background-image:url(../images/slider-business-01.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.login-row {
+   margin:auto;
+   width:50%;
+   text-align:center;
+}
+
+.dropDown {
+  color:black;  
+}
+
+.vertical-center-row {
+   margin:auto;
+   width:70%;
+   text-align:center;
+}
+
+#about{
+  color:white;
+  font: 15px calibri, sans-serif;
+  font-style:italic;
+  background-image:url(../images/nkpVq.png);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  text-align:center;
+  text-shadow: 1px 1px white;
+}
+
+
+  input:required:invalid, input:focus:invalid {
+    background-image: url(../images/qiSKcxr.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+  input:required:valid {
+    background-image: url(../images/tick.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+
+
+#myForm{
+   background-image:url(../images/gold-background-blur.jpg);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+   color:#8aece1;
+   text-align:center;
+   opacity: 0.9;
+}
+
+#contact{
+  color:white;
+  font: 15px calibri, sans-serif;
+  background-image:url(../images/SplitShire-8098-1800x1200-1.jpg);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  text-align:center;
+}
+
+.btn-space {
+    margin-top: 5px;
+}
+
+footer {
+  font: 20px calibri, sans-serif;
+  font-weight: bold;   
+  color:white;
+  background: #8aece1;
+}
