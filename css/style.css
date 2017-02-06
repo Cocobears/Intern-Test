@@ -48,14 +48,14 @@
 
 #about{
   color:white;
-  font: 15px calibri, sans-serif;
+  font-size:20px;
+  font-family:calibri;
   font-style:italic;
   background-image:url(../images/nkpVq.png);
   background-size:100% 100%;
   background-repeat:no-repeat;
   text-align:center;
-  text-shadow: 1px 1px white;
-}
+  }
 
 
   input:required:invalid, input:focus:invalid {
