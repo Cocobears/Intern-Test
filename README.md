@@ -14,4 +14,5 @@ As requested, the front end app uses HTML5, CSS3 and JQuery code and is adaptive
 For any additional clarification, feel free to email me.
 
 Thank you for your consideration,
+
 Nathan
