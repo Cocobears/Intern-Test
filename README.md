@@ -2,12 +2,18 @@
 
 Hello and Welcome to the source code,
 
-Please download all the files and folders and use "login.html" as the starting page for this front end app. After the user has been succesfully authenticated, he will be redirected to "main.html".
+Please click on the green "download button" 
+
+![alt tag](http://bigsby.github.io/NetCore/images/git/01copyurl.PNG)
+
+and after extracting the zip file to your desktop, please use "login.html" as the starting page for this front end app. 
 
 The following log-in details will grant you entry: 	
 
 Username: demo		
 Password: demo1234
+
+After the user has been succesfully authenticated, he will be redirected to "main.html".
 
 As requested, the front end app uses HTML5, CSS3 and JQuery code and is adaptive to different screen sizes.
 
