@@ -1,0 +1,80 @@
+
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+ 
+	<body>
+	 <div id="loginBack" >
+		<nav class="navbar " style="background-color: #8aece1;"></nav>
+		<div class="container ">
+			 <div class="row login-row">
+				  <div class="text-center  jumbotron well"  id="about">
+					 <img src="images/unep_logo.png" alt="HTML5 Icon" style="width:128px;height:128px;">
+					<h2>Travel Planning System</h2>	
+				 </div>
+		     </div>
+		</div>
+
+		<div class="container  ">
+			 <div class="login-row">
+				  <div class="jumbotron well" id="myForm">
+					 <h3 class="text-center" style="font-family:calibri;"><b>Secure Authentication</b></h3>
+
+				    	<form class="form-horizontal" name="loginForm" action="index.html" onSubmit="return validateForm();" method="post">
+
+ 		  				  <div class="form-group row">
+				 			<label class="control-label  col-xs-4" for="Name">Login:</label>
+							   <div class="col-xs-8">
+								 <input type="text" class="form-control dropDown" name="userName" placeholder ="Email Address" >
+							   </div>
+						  </div>
+
+			  			  <div class="form-group">
+			 				<label class="control-label col-xs-4" >Password:</label>
+			   				  <div class="col-xs-8">
+			   					<input type="password" class="form-control dropDown" name="passWord"  placeholder="Webmail Password" >
+			 	  			  </div>
+						  </div>
+
+						  <div class="form-group">
+			 				<label class="control-label col-xs-4" for="Name">Division:</label>
+			   				  <div class="col-xs-4">
+					   		  	<select id ="org" class ="dropDown">
+								  <option value="UNAE">UNAE</option>
+								  <option value="OFO">OFO</option>
+								  <option value="NYO">NYO</option>
+  								  <option value="DTIE">DTIE</option>
+								  <option value="DEWA">DEWA</option>
+								  <option value="DEPI">DEPI</option>
+		 						  <option value="DELC">DELC</option>
+		 						 </select>
+			   				  </div>
+						  </div>
+
+
+			  			<div class="form-group">
+							<label class="control-label col-sm-4"> </label>
+				 	 		<div class="col-sm-3">
+			 			  	  <input type="submit" class="btn btn-success btn-space" value ="Login">
+			 			  	</div>
+			 			</div>
+			   	     </form>
+			   	  </div>
+		    	</div>
+		  	  </div>
+		 
+	
+	</div>
+	 
+	</body>
+	
+ <footer class="text-center"><b> Developed by NateS </b></footer>
+   
+</html>

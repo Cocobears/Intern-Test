@@ -1,0 +1,245 @@
+
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+	  <div id="back" >
+		<nav class="navbar  navbar-default " style="background-color: #8aece1;">
+			<div class="container-fluid" >
+		 		 <div class="navbar-header ">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			  			 <span class="icon-bar"></span>
+   					     <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+					</button>
+			  		<a class="navbar-brand" href="#"><font size="5" face="calibri" color="white" ><b>Travel Booking System</b></font></a>
+		 		 </div>
+
+				<div class="collapse navbar-collapse" id="myNavbar">
+				   <ul class="nav navbar-nav navbar-right ">
+						  <li><a  id="navtext-color" class="coco"></a></li>
+						  <li><a href="#form"    id="navtext-color"></a></li>
+						  <li><a href="#contact" id="navtext-color">Contact Us</a></li>
+				   </ul>
+		  		</div>
+			</div>
+		</nav>
+	
+		<div class="container ">
+			 <div class="row vertical-center-row">
+				  <div class="text-center  jumbotron well"  id="about">
+					 <img src="images/unep_logo.png" alt="HTML5 Icon" style="width:128px;height:128px;">
+					 	<h2 id ="pk" class="text-center welcome" > Welcome to the Travel Planning Site! </h2>
+
+						  <p id="pls" >When fully functional, this application will allow you to book your travel plans with ease on your desktop or on your mobile with any popular browser. Enjoy!</p>
+				  </div>
+		     </div>
+		</div>
+
+		<div class="container  ">
+			 <div class="row vertical-center-row  ">
+				  <div class="jumbotron well" style="margin-top:0px" id="myForm">
+					 <h2 class="text-center" style="font-family:cambria;"> <b>Travel Form</b></h2>
+
+				    	<form class="form-horizontal" method="get"  onsubmit="return false;">
+
+ 		  				  <div class="form-group">
+				 			<label class="control-label col-xs-4" for="Name"> First Name:</label>
+							   <div class="col-xs-6">
+								 <input type="text" class="form-control dropDown" id="firstName" required>
+							   </div>
+						  </div>
+
+			  			  <div class="form-group">
+			 				<label class="control-label col-xs-4" for="Name"> Last Name:</label>
+			   				  <div class="col-xs-6">
+			   					<input type="text" class="form-control dropDown" id="lastName"  required>
+			 	  			  </div>
+						  </div>
+
+						  <div class="form-group">
+			 				<label class="control-label col-xs-4" for="Name"> Grade</label>
+			   				  <div class="col-xs-6">
+					   		  	<select name="grade" id ="grade" class ="dropDown">
+								  <option value="Director">Director</option>
+								  <option value="Professional">Professional </option>
+								  <option value="General Service">General Service </option>
+  								  <option value="National Professional Officers">National Professional Officers </option>
+								  <option value="Field Service">Field Service </option>
+								  <option value="Senior Appointments"> Senior Appointments </option>
+		 						 </select>
+			   				  </div>
+						  </div>
+
+						  <div class="form-group">
+							 <label class="control-label col-xs-4" for="Name"> Meeting/Institution:</label>
+							   <div class="col-xs-6">
+								   <input type="text" class="form-control dropDown" id="meeting">
+							   </div>
+						  </div>
+
+						  <div class="form-group">
+							 <label class="control-label col-xs-4" for="Name"> Venue:</label>
+							   <div class="col-xs-6">
+							 	   <input type="text" class="form-control dropDown" id="venue">
+							   </div>
+						  </div>
+
+						  <div class="form-group">
+							<label class="control-label col-xs-4" for="departing"> Departing:</label>
+							  	<div class="col-xs-6">
+							       <input type="date" class="form-control" id ="departing">
+				  			  	</div>
+				   			<label class="control-label col-xs-4" for="returning"> Returning:</label>
+				 				<div class="col-xs-6">
+								   <input type="date" class="form-control" id="returning">
+							    </div>
+			 			  </div>
+
+						  <div class="form-group">
+							 <label class="control-label col-xs-4" for="Name">Dates Away:</label>
+							   <div class="col-xs-6">
+								  <input class = "dropDown text-center" type="number" name="datesAway" min="0" max="100" step="1" value="2">
+							   </div>
+						  </div>
+
+			 			  <div class="form-group">
+							 <label class="control-label col-xs-4" for="messeage">Justification:</label>
+							   <div class="col-xs-6">
+								  <textarea class="form-control dropDown" rows="5" id="justification"></textarea>
+							   </div>
+						  </div>
+
+						  <div class="form-group">
+							 <label class="control-label col-xs-4 " for="Name"> Project ID:</label>
+							   <div class="col-xs-6">
+							  	  <input type="text" class="form-control dropDown" id="project">
+							   </div>
+						  </div>
+
+						  <div class="form-group">
+						 	<label class="control-label col-xs-4" for="budgetLine">Budget line:</label>
+							   <div class="col-xs-6">
+							   	  <input type="text" class="form-control dropDown" id="budgetLine">
+							   </div>
+						 </div>
+
+						 <div class="form-group">
+						 	<label class="control-label col-xs-4" for="estimatedTravel">Estimated Travel Cost (USD): </label>
+						  		<div class="col-xs-6">
+						 			<input type="number" class="form-control dropDown" id="estimatedTravel">
+						 		</div>
+						 </div>
+
+						 <div class="form-group">
+						 	<label class="control-label col-xs-4" for="additionalCosts">Additional Costs:</label>
+						   		<div class="col-xs-6">
+						   			<input type="number" class="form-control dropDown" id="additionalCosts" onkeypress="return isNumberKey(event)">
+						   		</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-xs-4" for="Name">Percentage of Travel Spent:</label>
+							   <div class="col-xs-6">
+								 <input class ="dropDown text-center" type="number" id="percentageOfTravel" min="0" max="100" step="1" value="30">%
+						   	   </div>
+						</div>
+
+						<div class="form-group">
+						 	<label class="control-label col-xs-4" for="Name">Department:</label>
+							   <div class="col-xs-6">
+						 		 <select id="department" class ="dropDown">
+									<option value="Strategy">Strategy</option>
+									<option value="Marketing">Marketing</option>
+									<option value="Operations">Operations</option>
+									<option value="Finance">Finance</option>
+									<option value="Human Resources">Human Resources</option>
+									<option value="Research and Development"> Research and Development</option>
+								 </select>
+							   </div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-xs-4" for="Quarter"> Applicable Quarter:</label>
+							   <div class="col-xs-6">
+								 <select id = "quarter" class="dropDown">
+									<option value="Q1">Q1</option>
+									<option value="Q2">Q2</option>
+									<option value="Q3">Q3</option>
+									<option value="Q4">Q4</option>
+								  </select>
+							   </div>
+						</div>
+
+					   <div class="form-group">
+						 <label class="control-label col-xs-4" for="totalAllocated">Total Allocated Travel budget for the year:</label>
+						   	<div class="col-xs-6">
+						   		<input type="number" class="form-control dropDown" id="totalAllocated">
+						    </div>
+					   </div>
+
+					 	<div class="form-group">
+						 <label class="control-label col-xs-4" for="Name"> Travel Budget Balance as at:</label>
+						   <div class="col-xs-6">
+						   	  <input type="date" class="form-control dropDown" id="dateBudgetBalance">
+							  <input type="number" class="form-control dropDown" id="budgetBalance">
+						   </div>
+						</div>
+
+  					    <div class="form-group">
+							 <label class="control-label col-xs-4" for="Name"> Regional Office of the mission destination</label>
+							    <div class="col-xs-6">
+								   <select id="regionalOffice" class = "dropDown">
+									   <option value="UNEP Addis Ababa Office">UNEP Addis Ababa Office</option>
+									   <option value="UNEP Beijing Office">UNEP Beijing Office</option>
+									   <option value="UNEP Brussels Office">UNEP Brussels Office</option>
+									   <option value="UNEP Moscow Office">UNEP Moscow Office</option>
+									   <option value="UNEP Vienna Office">UNEP Vienna Office</option>
+								       <option value="UNEP Brazil Office">UNEP Brazil Office</option>
+									   <option value="UNEP New York Office">UNEP New York Office</option>
+									   <option value="UNEP Cairo Office">UNEP Cairo Office</option>
+						  		   </select>
+								</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-xs-4"> Communcation Support Required:</label>
+							   <div class="col-xs-6">
+			  					   <input type="text" class="form-control" id="commSupport">
+			  				   </div>
+						</div>
+
+			  			<div class="form-group">
+							<label class="control-label col-xs-4"> </label>
+							<div class="col-xs-3">
+							  <button type="save" class="btn btn-success btn-space" onclick="informUser()">Save</button>
+							</div>
+				 	 		<div class="col-xs-3">
+			 			  	  <input type="submit" class="btn btn-success btn-space" onclick="emailSupervisor()"></input>
+			 			  	</div>
+			 			</div>
+			   	     </form>
+			   	  </div>
+		    	</div>
+		  	  </div>
+
+			  <div class="container ">
+		 		<div class="row vertical-center-row">
+		  			<div class="text-center  well"  id="contact">
+						<p class = "text-center">Please contact us at <a href="http://www.unep.org/" target="_blank"> UNEP</a> for any additional queries</p>
+		 			</div>
+		  		</div>
+		  	  </div>
+		  </div>
+	  </body>
+ 	<footer class="text-center"><b> Developed by NateS </b></footer>
+</html>
