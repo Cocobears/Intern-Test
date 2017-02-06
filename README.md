@@ -2,7 +2,7 @@
 
 Hello and Welcome to the source code,
 
-"login.html" is the first page in this front end app. After the user has been succesfully authenticated, he will be redirected to "main.html".
+Please download all the files and folders and use "login.html" as the starting page for this front end app. After the user has been succesfully authenticated, he will be redirected to "main.html".
 
 The following log-in details will grant you entry: 	
 
