@@ -4,7 +4,7 @@ Hello and Welcome to the source code,
 
 Please click on the green "download button" 
 
-![alt tag](http://bigsby.github.io/NetCore/images/git/01copyurl.PNG)
+![alt tag](https://www.alphasoftware.com/documentation/pages/HowTo/Other/images/aa_gitHub4.png)
 
 and after extracting the zip file to your desktop, please use "login.html" as the starting page for this front end app. 
 
